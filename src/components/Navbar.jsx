@@ -8,11 +8,12 @@ import { MdEmail } from "react-icons/md"
 
 const Navbar = () => {
     return (
-        <nav className="mb-20 lg:mb-6  flex items-center justify-between py-2">
+        //mb-10
+        <nav className=" mb-4 lg:mb-6  flex items-center justify-between  py-2">
             <div className="flex flex-shrink-0 items-center">
-                <img className=" mx-2 w-[10vw] " src={portlogo} alt="logo" ></img>
+                <img className=" mx-2 w-14  lg:w-[10vw] " src={portlogo} alt="logo" ></img>
             </div>
-            <div className=" m-8 cursor-pointer flex items-center justify-center gap-8  text-3xl  ">
+            <div className=" m-8 cursor-pointer flex items-center justify-center gap-x-3 lg:gap-8  md:gap-8    text-3xl  ">
             <a id="footerem"  href="mailto:samrudhmgowda61@gmail.com"><MdEmail className="hover:text-green-500"/></a>
             <a href="https://www.linkedin.com/in/samrudh-m-gowda/"><FaLinkedin className="hover:text-green-500"/></a>
             <a href="https://github.com/Samrudhmg?tab=repositories"><FaGithub className="hover:text-green-500"/></a>

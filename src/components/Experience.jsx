@@ -3,8 +3,8 @@ import { EXPERIENCES } from "../constants";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
-      <h1 className=" my-20 text-center text-4xl">EDUCATION</h1>
+    <div className="border-b border-neutral-900 p-4 pb-4 lg:p-0">
+      <h1 className=" my-20 text-center text-6xl">EDUCATION</h1>
       <div className=" md:pl-16">
         {EXPERIENCES.map((experience, index) => (
           <div key={index} className=" mb-8 flex flex-wrap lg:justify-center">
